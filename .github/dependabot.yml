@@ -5,7 +5,7 @@
 
 version: 3
 updates:
-  # Enable version updates for "''
+  # Enable version updates the 'root' repository
   - package-ecosystem: 'npm'
     # Look for `package.json` and `lock` files in the `root` directory
     directory: '/'

@@ -1,5 +1,8 @@
 name: Validate cache with cache-dependency-path option
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:

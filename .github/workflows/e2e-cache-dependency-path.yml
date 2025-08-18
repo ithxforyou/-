@@ -27,7 +27,7 @@ jobs:
         os: [macos-latest, windows-latest, ubuntu-latest]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Run setup-java with the cache for gradle
         uses: ./
         id: setup-java
@@ -54,7 +54,7 @@ jobs:
     needs: gradle1-save
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Run setup-java with the cache for gradle
         uses: ./
         id: setup-java
@@ -79,7 +79,7 @@ jobs:
     needs: gradle1-save
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Run setup-java with the cache for gradle
         uses: ./
         id: setup-java
